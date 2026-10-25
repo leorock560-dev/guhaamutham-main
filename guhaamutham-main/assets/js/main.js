@@ -14,7 +14,7 @@ const AD = "132/1, Cooperative Street, Vilankurichi, Coimbatore – 641035, Tami
 
 const hd = $("#hd");
 if (hd) {
-  hd.innerHTML = `<header class="hd"><div class="w bar"><a class="logo" href="home.html"><img class="image" src="assets/images/logo-1.png" height="50px">  <img class="image" src="assets/images/logo-2 (2).png" height="50px"></a><button class="mb" aria-label="Toggle menu" aria-expanded="false">☰</button><nav id="nv" aria-label="Main">${N.map((n) => `<a href="${n[1]}" class="${n[0] == P ? "on" : ""}">${n[2]}</a>`).join("")}<a class="btn" href="contact.html#business-enquiry">Enquire Now</a></nav></div></header>`;
+  hd.innerHTML = `<header class="hd"><div class="w bar"><a class="logo" href="home.html"><img class="image" src="assets/images/logo-1.png" height="45px">  <img class="image" src="assets/images/logo-2 (2).png" height="45px"></a><button class="mb" aria-label="Toggle menu" aria-expanded="false">☰</button><nav id="nv" aria-label="Main">${N.map((n) => `<a href="${n[1]}" class="${n[0] == P ? "on" : ""}">${n[2]}</a>`).join("")}<a class="btn" href="contact.html#business-enquiry">Enquire Now</a></nav></div></header>`;
   const b = $(".mb");
   const nv = $("#nv");
 
