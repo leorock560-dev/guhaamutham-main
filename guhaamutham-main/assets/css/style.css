@@ -180,6 +180,8 @@ p {
 .hd {
   position: relative;
   background: var(--g);
+  display: flex;
+  flex-direction: row;
   color: var(--c);
   top: 0;
   z-index: 50;
@@ -1058,9 +1060,7 @@ textarea.bad {
   .car .nx {
     transform: rotate(90deg);
   }
-  .image{
-    height: 40px;
-  }
+
 }
 
 
