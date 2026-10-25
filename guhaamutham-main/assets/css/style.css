@@ -194,6 +194,10 @@ p {
   padding: 12px 0;
 }
 
+.hd .bar {
+  padding: 8px 0;
+}
+
 .logo {
   display: flex;
   gap: 12px;
@@ -1047,19 +1051,20 @@ textarea.bad {
 
 @media (max-width: 400px) {
   #intro > .w.hg {
-    padding: 8px !important;
+    padding: 0 18px !important;
+    gap: 12px;
   }
 
   #intro > .w.hg .btn {
-    padding: 8px 12px;
+    padding: 0 7px;
   }
 
   #intro > .w.hg .stats {
-    padding-top: 12px;
+    padding: 0 7px;
   }
 
   #intro > .w.hg .cp {
-    padding: 8px 10px;
+    padding: 0 7px;
   }
 
   #intro > .w.hg .cp button {
@@ -1081,7 +1086,7 @@ textarea.bad {
     transform: rotate(90deg);
   }
   .w {
-    padding: 5px;
+    padding: 0 18px;
   }
 
 }
